@@ -4,16 +4,59 @@
   text-align: center;
   display: block;
 }
+
 .para {
   font-family: 'roboto', sans-serif;
 }
 
-.images {
+body {
+  padding:5rem
+}
+
+.fa {
+  padding: 1rem;
+  height: 1rem;
+  width:1rem;
+  text-align: center;
+  text-decoration: none;
+  margin:auto;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter-square {
+  color: #55ACEE;
+}
+
+
+.fa-linkedin-square {
+  color: #007bb5;
+}
+
+.fa-instagram {
+  color: #6FDCBF;
+}
+
+.fa-pinterest-square{
+  color: #cb2027;
+}
+
+para {
+  padding:20rem;
+}
+
+.img-circle {
+  text-align:center;
+  border-radius: 50%;
   background-position: center;
   display: inline-block;
-  width: 15rem;
-  height: 15rem;
-  margin-left: 3rem;
+  width: 14rem;
+  height: 14rem;
+  margin: 1rem;
   overflow: hidden;
   background-size: cover;
 }
@@ -69,9 +112,4 @@
 /* Add a color to the active/current link */
 .topnav:active {
     color: #bb2188;
-}
-
-.gallery {
-  margin: 5% 10%;
-  text-align: center;
 }
