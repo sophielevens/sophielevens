@@ -3,37 +3,64 @@
   color:#bb2188;
   text-align: center;
   display: block;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  font-family: 'Amatic SC', cursive;
+  color:#bb2188;
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
 }
 
 .para {
   font-family: 'roboto', sans-serif;
+  text-align: justify;
+  color: #393E46;
+  line-height: 1.8em;
+}
+
+.parathick {
+  font-family: 'roboto', sans-serif;
+  text-align: justify;
+  color: #393E46;
+  font-weight: bold;
+}
+
+img {
+  text-align: center;
+  width:auto;
+
 }
 
 body {
-  padding:5rem
+  font-family: 'roboto', sans-serif;
+  text-align: justify;
+  color: #393E46;
+  font-size: 1rem;
+  padding:10rem;
 }
+
 
 .fa {
-  padding: 1rem;
-  height: 1rem;
-  width:1rem;
-  text-align: center;
-  text-decoration: none;
-  margin:auto;
-  border-radius: 50%;
+  padding:1.5rem;
+  float: none;
+  text-align: justify;
   display: inline-block;
+  cursor:pointer;
 }
 
-.fa:hover {
+.hover {
     opacity: 0.7;
 }
 
-.fa-twitter-square {
+.fa-twitter {
   color: #55ACEE;
 }
 
 
-.fa-linkedin-square {
+.fa-linkedin {
   color: #007bb5;
 }
 
@@ -41,12 +68,14 @@ body {
   color: #6FDCBF;
 }
 
-.fa-pinterest-square{
+.fa-pinterest {
   color: #cb2027;
 }
 
-para {
-  padding:20rem;
+.para {
+  padding:;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .img-circle {
@@ -74,9 +103,6 @@ para {
   background-image: url("../img/march.jpg");
 }
 
-.navContainer {
-  height: 2rem;
-}
 
 .movingImage {
     margin: auto;
@@ -91,8 +117,60 @@ para {
   display: block;
 }
 
+#myDIV {
+    width: 100%;
+    text-align: justify;
+    display: none;
+}
+
+
+.more {
+	display: none;
+}
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #666666;
+	padding-left: 8px;
+	background: transparent url('down.gif') no-repeat left; }
+a.hideLink {
+	background: transparent url('up.gif') no-repeat left; }
+a.showLink:hover, a.hideLink:hover {
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker grey color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: ;
+    padding: 20px;
+}
 /* Style the links inside the navigation bar */
-.topnav {
+/*.topnav {
     float: right;
     display: block;
     color: #666666;
@@ -105,11 +183,11 @@ para {
 }
 
 /* Change the color of links on hover */
-.topnav:hover {
+/*.topnav:hover {
     color: #bb2188;
 }
-
+*/
 /* Add a color to the active/current link */
-.topnav:active {
+/*.topnav:active {
     color: #bb2188;
-}
+}*/
