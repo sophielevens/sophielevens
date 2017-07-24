@@ -144,9 +144,9 @@ a.showLink, a.hideLink {
 	text-decoration: none;
 	color: #666666;
 	padding-left: 8px;
-	background: transparent url('down.gif') no-repeat left; }
+	background: transparent url('') no-repeat left; }
 a.hideLink {
-	background: transparent url('up.gif') no-repeat left; }
+	background: transparent url('') no-repeat left; }
 a.showLink:hover, a.hideLink:hover {
 }
 
