@@ -1,14 +1,3 @@
-h2 {
-    text-align: left;
-    font-size: 1.1rem;
-}
-
-img {
-  margin:0 auto;
-  display:block;
-  padding: 1rem 1rem;
-}
-
 body {
   font-family: 'roboto', sans-serif;
   text-align: center;
@@ -25,9 +14,13 @@ body {
   color:#bb2188;
   text-align: center;
   display: block;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
+h2 {
+    text-align: left;
+    font-size: 1.1rem;
+}
 
 .subtitle {
   font-family: 'Amatic SC', cursive;
@@ -39,7 +32,7 @@ body {
 
 .para {
   font-family: 'roboto', sans-serif;
-  text-align: justify;
+  text-align: center;
   color: #393E46;
   line-height: 1.8em;
 }
@@ -85,7 +78,6 @@ body {
    opacity: 0.7;
 }
 
-
 .fa-pinterest {
   color: #cb2027;
 }
@@ -93,10 +85,34 @@ body {
 .fa-pinterest:hover {
    opacity: 0.7;
 }
+
 .para {
-  padding:0 auto  ;
+  padding: 0 auto  ;
   text-align: justify;
   text-justify: inter-word;
+}
+
+
+
+img {
+  margin:0 auto;
+  display:block;
+  padding: 1rem 1rem;
+}
+
+a:link {
+    color: #393E46;
+    text-align: inherit;
+    font-family:  'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #901a69;
+}
+
+a:hover {
+    color: #BB2188;
 }
 
 .img-circle {
@@ -104,8 +120,8 @@ body {
   border-radius: 50%;
   background-position: center;
   display: inline-block;
-  width: 10rem;
-  height: 10rem;
+  width: 9rem;
+  height: 9rem;
   margin: 1rem;
   overflow: hidden;
   background-size: cover;
@@ -137,38 +153,30 @@ body {
   display: block;
 }
 
-/*#myDIV {
-    width: 100%;
-    text-align: justify;
-    display: none;
-}*/
-
-
 .more {
 	display: none;
 }
 a.showLink, a.hideLink {
 	text-decoration: none;
 	color: #666666;
-	padding-left: 8px;
-	background: transparent url('down.gif') no-repeat left; }
+	padding-left: 1rem;
+	background: transparent url('') no-repeat left; }
 a.hideLink {
-	background: transparent url('up.gif') no-repeat left; }
+	background: transparent url('') no-repeat left; }
 a.showLink:hover, a.hideLink:hover {
 }
 
 input[type=text], select, textarea {
-    width: 100%;; /* Full width */
-    padding: 1rem; /* Some padding */
-    border: 0.1rem solid #ccc; /* Gray border */
-    border-radius: 0.5rem; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 1.2rem; /* Add a top margin */
-    margin-bottom: 2rem; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    resize: vertical
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #6FDCBF;
     color: white;
@@ -178,12 +186,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker grey color */
 input[type=submit]:hover {
     background-color: #60c1a8;
 }
 
-/* Add a background color and some padding around the form */
 .container {
     border-radius: 1rem;
     background-color: ;
