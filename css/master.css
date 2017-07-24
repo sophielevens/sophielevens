@@ -137,13 +137,6 @@ body {
   display: block;
 }
 
-/*#myDIV {
-    width: 100%;
-    text-align: justify;
-    display: none;
-}*/
-
-
 .more {
 	display: none;
 }
@@ -158,17 +151,17 @@ a.showLink:hover, a.hideLink:hover {
 }
 
 input[type=text], select, textarea {
-    width: 100%;; /* Full width */
-    padding: 1rem; /* Some padding */
-    border: 0.1rem solid #ccc; /* Gray border */
-    border-radius: 0.5rem; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 1.2rem; /* Add a top margin */
-    margin-bottom: 2rem; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
     background-color: #6FDCBF;
     color: white;
@@ -178,12 +171,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker grey color */
+
 input[type=submit]:hover {
     background-color: #60c1a8;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
     border-radius: 1rem;
     background-color: ;
